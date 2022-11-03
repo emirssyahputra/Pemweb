@@ -1,30 +1,119 @@
-<!--Emirssyah Putra!--> 
-<!--120140169-->
-<!--RB-->
-<!--Tugas Pengweb 3-->
-
-<!-- Memanipulasi DOM halaman sebuah website,
-        - membuat teks kedalam id/class html tertentu (innerHTML)
-        - membuat element html kedalam id/class html tertentu (createElement)
-        - membuat element yang dinamis berdasarkan event handler tertentu, contoh: button di click berubah halaman (onClick) -->
-
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8" />
-        <meta name="description" content="Tugas 3 - Emirssyah Putra" />
-        <meta name="keywords" content="DOM JS, Emirssyah, Putra, Emirssyah Putra" />
-        <title>Tugas 3 - Emirssyah Putra</title>
-    </head>
-    <body id="body">
-        
-        
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 2</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="header">
+        <table>
+        <tr>
+        <td><img width="120" height="160" src="https://drive.google.com/uc?export=view&id=1e94259cIi_qZGHxEvC4_VW1kVWlEdIm2" alt=""></td>
+        <td><h1>Halo, Saya Emirssyah Putra</h1></td>
+    </tr>
+    </table>
+    </header>
+    <main>    
+        <nav class="navbar">
+                <a href="#tentang">Tentang Saya</a>
+                <a href="#kerja">Pengalaman Kerja</a>
+                <a href="#saya">Hubungi Saya</a>
+        </nav>
+    </main>
+    <br>
+    <center>
+        <button class="accordion" id="tentang"># Tentang Saya</button>
+        <div class="panel">
+            <p id="desk">
 
-        <button onclick="tombol()">Klik</button>
-        <h1 align="center" id="judul"></h1>
-        <h2 align="center" id="bawahjudul"></h2>
-
-        <script src="script.js"></script>
-    </body>
+            </p>
+        </div>
+    </center>
+        <br>
+        <center>
+        <iframe src="https://www.youtube.com/embed/6v41BSRLSng" frameborder="0" width="500px" height="300px"></iframe>
+        </center>
+    </p>
+        </section>
+            <div class="kerja">
+            <h2 id="kerja"># Pengalaman Kerja </h2>
+             </div>
+            <table class="tabel" align="center" border="1">
+                    <tr>
+                        <th rowspan="2">No</th>
+                        <th rowspan="2" align="center">Posisi</th>
+                        <th rowspan="2">Perusahaan</th>
+                        <th colspan="2" align="center">Waktu</th>
+                    </tr>
+                    <tr>
+                        <th>Mulai</th>
+                        <th>Selesai</th>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>Al Kautsar Computer Innovation Club</td>
+                        <td>Member</td>
+                        <td>2017</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Amuse VIII</td>
+                        <td>Staff</td>
+                        <td>2018</td>
+                        <td>2018</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Materi dan Metode First Gathering Informatics 2021</td>
+                        <td>Staff</td>
+                        <td>2021</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>Tera Esports Divisi Mobile Legends</td>
+                        <td>Staff</td>
+                        <td>2021</td>
+                        <td>Sekarang</td>
+                    </tr> 
+            </table>
+            <br>
+    <button class="accordion1" id="saya"># Hubungi Saya</button>
+        <div class="panel1">
+    <center>
+    <div class="form">
+    <form>
+        <div class="nama"
+        <label for="title">Nama :</label>
+        <input type="text" id="title" name="title" >
+    </div>
+    </form>
+    <p><b>Sudah nonton Tugas saya ?</b></p>
+    <form>
+        <input type="radio" id="sudah" name="belum" value="sudah">
+        <label for="belum">Sudah</label><br>
+        <input type="radio" id="belum" name="belum" value="belum">
+        <label for="Sudah">Belum</label><br>
+    <br>
+    <p><b>Suka nonton anime apa ?</b></p>
+        <input type="checkbox">
+        <label for="tensura">Tensura</label><br>
+        <input type="checkbox">
+        <label for="naruto">Naruto</label><br>
+        <input type="checkbox" >
+        <label for="black clover">Black Clover</label><br>
+    <br>
+    <button onclick="tombol()">Submit</button>
+        </form>
+    </center>
+    </div>
+    <center>
+    <p class="foot">Emirssyah Putra_120140169</p>
+    </center>
+    <script src="script.js"></script>
+</body>
 </html>

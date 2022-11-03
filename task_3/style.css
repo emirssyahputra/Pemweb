@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  text-align: left;
+  background-image: url(https://drive.google.com/uc?export=view&id=1VKsG2bNyOSSt72mYdfCUGKuqf6jFjRHC);
+  background-size: cover;
+}
+.header {
+  background-color: lightskyblue;
+  color: black;
+  text-align: left;
+}
+.navbar {
+  display: flex;
+  background-color: cornflowerblue;
+  justify-content: flex-end;
+}
+.navbar a {
+  color: black;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.kerja {
+  background-color: cornflowerblue;
+  width: fit-content;
+}
+.tabel {
+  background-color: lightskyblue;
+}
+.hub {
+  background-color: cornflowerblue;
+  width: fit-content;
+}
+.form {
+  background-color: cornflowerblue;
+  align-content: center;
+  width: 300px;
+  border-radius: 20px;
+  color: black;
+  padding: 10px;
+}
+.nama {
+  border-radius: 10px;
+}
+.foot {
+  display: flexbox;
+  background-color: grey;
+  padding: 10px;
+  color: white;
+}
+.accordion {
+  background-color: cornflowerblue;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.active,
+.accordion:hover {
+  background-color: white;
+}
+.panel {
+  padding: 0 18px;
+  background-color: skyblue;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion:after {
+  content: "\02795";
+  font-size: 13px;
+  color: black;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
+.accordion1 {
+  background-color: cornflowerblue;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.active,
+.accordion1:hover {
+  background-color: white;
+}
+.panel1 {
+  padding: 0 18px;
+  background-color: transparent;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion1:after {
+  content: "\02795";
+  font-size: 13px;
+  color: black;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
